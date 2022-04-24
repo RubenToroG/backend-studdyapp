@@ -14,4 +14,4 @@ class Settings(BaseSettings):
     db_port: str = os.getenv('DB_PORT')
 
     secret_key: str = os.getenv('SECRET_KEY')
-    token_expire: str = os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES')
+    token_expire: int = os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES')

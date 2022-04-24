@@ -14,7 +14,7 @@ from app.v1.utils.settings import Settings
 settings = Settings()
 
 
-SECRET_KEY = settings.secret_keyALGORITHM
+SECRET_KEY = settings.secret_key
 ALGORITHM = 'HS256'
 ACCESS_TOKEN_EXPIRE_MINUTES = settings.token_expire
 
